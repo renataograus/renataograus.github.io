@@ -1,0 +1,88 @@
+<html>
+<head>
+  <title>Grupão dos mlkote</title>
+  <style>
+    h1 {
+      color: blue;
+      letter-spacing: 10px;
+      word-spacing: 10px;
+      text-shadow: 2px 2px 5px purple;
+      font-size: 70px;
+    }
+    p {
+      color: red;
+      font-size: 30px;
+    }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      color: blue;
+      font-size: 30px;
+      background-color: purple;
+      width: 10%; 
+    }
+    td, th {
+      border-left: 1px solid black; 
+      border-top: 1px solid black; 
+      padding: 10px; 
+    }
+  
+    a {
+      color: blue;
+    }
+    a:hover {
+      color: lightblue;
+      font-style: italic;
+    }
+    p:hover {
+      color: pink;
+    }
+    td:hover {
+      background-color: gray;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <center>
+      <a href="https://www.athletico.com.br/">Athletico Pr</a>
+    </center>
+    <center>
+      <a href="https://www.fcbarcelona.com/en/">Barça</a>
+    </center>
+    <center>
+      <a href="https://br.pinterest.com/pin/388717011578617995/">Clique aqui</a>
+    </center>
+  </header>
+
+  <h1>Bom dia visitante! Espero que goste do nosso site, seja muito bem-vindo.</h1>
+  <h1>"PUXA O TRUCO E FAZ O L"</h1>
+
+  <img src="https://copag.com.br/uploads/blog/44/d764f0e63ca14a1aadb2aa4fd7d0540f.jpg" width="100%" height="70%" alt="PUXA O TRUCO E FAZ O L">
+
+  <table>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <p>E nessa loucura de dizer que não te quero</p>
+  <p>Vou negando as aparências</p>
+  <p>Disfarçando as evidências</p>
+  <p>Mas pra que viver fingindo</p>
+  <p>Se eu não posso enganar meu coração?</p>
+  <p>Eu sei que te amo!</p>
+
+  <br />
+  <center>
+    <footer>i love igor</footer>
+  </center>
+</body>
+</html>
