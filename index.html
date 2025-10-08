@@ -1,35 +1,38 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
+  <meta charset="UTF-8" />
   <title>Grupão dos mlkote</title>
   <style>
     body {
-  background-color: #808080; /* Cor cinza */
-}
-  @media screen and (max-width: 600px) {
-  body {
-    background-color: #800080; /* Cor roxa */
-  }
-}
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: myAnimation;
-  animation-duration: 4s;
-}
+      background-color: #808080; /* Cor cinza */
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: #800080; /* Cor roxa */
+      }
+    }
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation-name: myAnimation;
+      animation-duration: 4s;
+    }
 
-@keyframes myAnimation {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
-    .menu{
-      display:flex;
+    @keyframes myAnimation {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      100% {background-color: green;}
+    }
+
+    .menu {
+      display: flex;
       justify-content: space-around;
-      flex-direction: flex-start;
-      background-color:rgba(0,0,0,0.2);
-      margin: 10px 0px 0px 0px;
+      flex-direction: row; /* corrigido */
+      background-color: rgba(0,0,0,0.2);
+      margin: 10px 0 0 0;
       text-align: center;
       flex-wrap: wrap;
     }
@@ -60,6 +63,7 @@ div {
   
     a {
       color: blue;
+      text-decoration: none;
     }
     a:hover {
       color: lightblue;
@@ -74,24 +78,20 @@ div {
   </style>
 </head>
 <body>
-<div class="menu">
-</div>
+
   <header>
-   <div class="menu">
-
+    <div class="menu">
       <a href="https://www.athletico.com.br/">Athletico Pr</a>
-   
       <a href="https://gremio.net/">Grêmio</a>
-   
       <a href="https://www.flamengo.com.br/">Mengudo</a>
-
-   </div>
+    </div>
   </header>
 
   <h1>Eae piazada, Taborda, Samuel, Lukete e gordolas mandam um beijo</h1>
- 
 
-<img src="https://revistadofato.com.br/wp-content/uploads/2025/01/neymar-.webp"  width="100%" height="100%" alt="Eae piazada, Taborda, Samuel e Lukete mandam um beijo">
+  <img src="https://revistadofato.com.br/wp-content/uploads/2025/01/neymar-.webp"  
+       width="100%" 
+       alt="Eae piazada, Taborda, Samuel e Lukete mandam um beijo">
 
   <table>
     <tr>
@@ -106,7 +106,7 @@ div {
     </tr>
   </table>
 
-  <pNum sei o que num sei o que la</p>
+  <p>Num sei o que num sei o que la</p>
   <p>gusgus</p>
   <p>memelsósifode</p>
   <p>lc100midia</p>
@@ -114,9 +114,10 @@ div {
   <p>vsffffffff</p>
 
   <br />
-<center>
+  <center>
     <footer>vsf geral</footer>
-</center>
+  </center>
+  
 </body>
 </html>
 
